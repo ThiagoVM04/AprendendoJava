@@ -1,4 +1,4 @@
-package Condições;
+package Condicoes;
 
 public class IfEElse {
 
