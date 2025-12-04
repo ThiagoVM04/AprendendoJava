@@ -13,12 +13,11 @@ public class Desafio2 {
         int ninjasCadastrados = 0;
         int opcao = 0;
 
-        while ( opcao != 4 ){
+        while ( opcao != 3 ){
             System.out.println("\n===== Menu Ninja =====");
             System.out.println("1. Cadastrar Ninja");
             System.out.println("2. Listar Ninjas");
-            System.out.println("3. Deletar");
-            System.out.println("4. Sair");
+            System.out.println("3. Sair");
             System.out.println("Escolha uma opção: ");
             opcao = scanner.nextInt();
             scanner.nextLine()
@@ -47,7 +46,7 @@ public class Desafio2 {
                 }
                 break;
 
-                case 4:
+                case 3:
                     System.out.println("Estamos terminando o programa... saindo");
                     break;
 
