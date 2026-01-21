@@ -20,7 +20,7 @@ public class Desafio2 {
             System.out.println("3. Sair");
             System.out.println("Escolha uma opção: ");
             opcao = scanner.nextInt();
-            scanner.nextLine()
+            scanner.nextLine();
 
             switch (opcao){
                 case 1:
