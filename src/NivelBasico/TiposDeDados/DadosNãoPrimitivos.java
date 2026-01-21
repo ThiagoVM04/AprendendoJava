@@ -1,4 +1,4 @@
-package TiposDeDados;
+package NivelBasico.TiposDeDados;
 
 /*
 * Principais Shortcuts
