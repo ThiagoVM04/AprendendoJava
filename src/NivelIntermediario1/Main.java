@@ -1,6 +1,4 @@
-package NivelIntermediario;
-
-import javax.naming.NameNotFoundException;
+package NivelIntermediario1;
 
 public class Main {
     static void main(String[] args) {
