@@ -3,7 +3,7 @@ package NivelINtermediario3;
 public class Main {
     static void main(String[] args) {
 
-        Hokages Hashirama = new Hokages();
+        Senju Hashirama = new Senju();
         Hashirama.nome = "Hashirama";
         Hashirama.idade =  45;
 
