@@ -1,11 +1,9 @@
 package NivelIntermediario6;
 
-public class Ninja {
+import NivelIntermediario5.NivelNinja;
 
+public abstract class Ninja {
     String nome;
     String aldeia;
     int idade;
-
-
-
 }
