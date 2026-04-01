@@ -1,4 +1,4 @@
-package NivelIntermediario7;
+package NivelIntermediario.Generic;
 
 import java.util.ArrayList;
 import java.util.List;

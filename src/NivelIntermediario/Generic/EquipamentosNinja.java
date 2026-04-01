@@ -1,4 +1,4 @@
-package NivelIntermediario7;
+package NivelIntermediario.Generic;
 
 public class EquipamentosNinja {
     private String nome;

@@ -1,4 +1,4 @@
-package NivelIntermediario7;
+package NivelIntermediario.Generic;
 
 public class Main {
     static void main(String[] args) {
