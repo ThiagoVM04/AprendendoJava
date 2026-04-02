@@ -41,7 +41,7 @@ public class Ninja {
 
     @Override
     public String toString() {
-        return "NivelIntermediario.MetodosParametros.NivelIntermediario.Herança.Ninja{" +
+        return "Ninja{" +
                 "nome='" + nome + '\'' +
                 ", email='" + email + '\'' +
                 ", telefone=" + telefone +

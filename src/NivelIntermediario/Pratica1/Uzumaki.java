@@ -11,12 +11,12 @@ public class Uzumaki extends Ninja{
         super();
     }
 
-    public Uzumaki(String nome, String aldeira, int idade) {
-        super(nome, aldeira, idade);
+    public Uzumaki(String nome, String aldeia, int idade) {
+        super(nome, aldeia, idade);
     }
 
-    public Uzumaki(String nome, String aldeira, int idade, int numeroDeMissoesConcluidas, NivelNinja rank) {
-        super(nome, aldeira, idade, numeroDeMissoesConcluidas, rank);
+    public Uzumaki(String nome, String aldeia, int idade, int numeroDeMissoesConcluidas, NivelNinja rank) {
+        super(nome, aldeia, idade, numeroDeMissoesConcluidas, rank);
     }
 
 

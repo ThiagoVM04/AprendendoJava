@@ -5,8 +5,8 @@ public class Array2D {
 
         String[][] ninjasEAldeias = new String[3][3];
         ninjasEAldeias[0][0] = "Konoha";
-        ninjasEAldeias[0][1] = "Naruto NivelIntermediario.MetodosParametros.NivelIntermediario.Herança.Uzumaki";
-        ninjasEAldeias[0][2] = "Sasuke NivelIntermediario.MetodosParametros.NivelIntermediario.Herança.Uchiha";
+        ninjasEAldeias[0][1] = "Naruto";
+        ninjasEAldeias[0][2] = "Sasuke";
 
         ninjasEAldeias[1][0] = "Nevoa";
         ninjasEAldeias[1][1] = "Zabuza";

@@ -5,19 +5,19 @@ public class Main {
 
     // Criar o ninja Naruto - Naruto é um OBJETO
     Ninja Naruto = new Ninja();
-    Naruto.nome = "Naruto NivelIntermediario.MetodosParametros.NivelIntermediario.Herança.Uzumaki";
+    Naruto.nome = "Naruto Uzumaki";
     Naruto.aldeia = "Aldeia da folha";
     Naruto.idade = 17;
 
-    // Criar ninja Sasuke NivelIntermediario.MetodosParametros.NivelIntermediario.Herança.Uchiha - Sasuke é um OBJETO
+    // Criar ninja Sasuke Uchiha - Sasuke é um OBJETO
     Ninja Sasuke = new Ninja();
-    Sasuke.nome = "Sasuke NivelIntermediario.MetodosParametros.NivelIntermediario.Herança.Uchiha";
+    Sasuke.nome = "Sasuke Uchiha";
     Sasuke.aldeia = "Aldeia da Folha";
     Sasuke.idade = 18;
 
-    // Criar Sakura NivelIntermediario.MetodosParametros.NivelIntermediario.Herança.Haruno
+    // Criar Sakura Haruno
     Ninja Sakura = new Ninja();
-    Sakura.nome = "Sakura NivelIntermediario.MetodosParametros.NivelIntermediario.Herança.Haruno";
+    Sakura.nome = "Sakura Haruno";
     Sakura.aldeia = "Aldeia da Folha";
     Sakura.idade = 18;
     }

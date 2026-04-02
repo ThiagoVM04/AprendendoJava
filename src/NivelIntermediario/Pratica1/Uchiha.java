@@ -24,7 +24,7 @@ public class Uchiha extends Ninja{
         if (qi > 150){
             System.out.println("Seu QI é: " + qi + " você é um gênio!");
         } else if (qi >= 130) {
-            System.out.println("Seu QI é: " + qi + " você é um nija promissor!");
+            System.out.println("Seu QI é: " + qi + " você é um ninja promissor!");
         } else {
             System.out.println("Seu QI é: " + qi + " você precisa treinar mais seu QI");
         }

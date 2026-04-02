@@ -13,9 +13,9 @@ public class SwitchCase {
         Scanner caixaDeTexto = new Scanner(System.in);
 
         System.out.println("Escolha um personagem: ");
-        System.out.println("1 - Naruto NivelIntermediario.MetodosParametros.NivelIntermediario.Herança.Uzumaki ");
-        System.out.println("2 - Sasuke NivelIntermediario.MetodosParametros.NivelIntermediario.Herança.Uchiha ");
-        System.out.println("3 - Sakura NivelIntermediario.MetodosParametros.NivelIntermediario.Herança.Haruno ");
+        System.out.println("1 - Naruto Uzumaki ");
+        System.out.println("2 - Sasuke Uchiha ");
+        System.out.println("3 - Sakura Haruno ");
 
         // Pedir para o usuario escolher uma das opções
         int opcao = caixaDeTexto.nextInt();
@@ -25,15 +25,15 @@ public class SwitchCase {
         // Mostrar a reação ao escolher um personagem
         switch (opcao){
             case 1:
-                System.out.println("Personagem escolhido Naruto NivelIntermediario.MetodosParametros.NivelIntermediario.Herança.Uzumaki");
+                System.out.println("Personagem escolhido Naruto Uzumaki");
                 break;
 
             case 2:
-                System.out.println("Personagem escolhido Sasuke NivelIntermediario.MetodosParametros.NivelIntermediario.Herança.Uchiha");
+                System.out.println("Personagem escolhido Sasuke Uchiha");
                 break;
 
             case 3:
-                System.out.println("Personagem escolhido Sakura NivelIntermediario.MetodosParametros.NivelIntermediario.Herança.Haruno");
+                System.out.println("Personagem escolhido Sakura Haruno");
                 break;
 
             default:

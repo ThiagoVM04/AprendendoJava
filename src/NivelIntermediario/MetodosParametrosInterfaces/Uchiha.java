@@ -3,6 +3,6 @@ package NivelIntermediario.MetodosParametrosInterfaces;
 public class Uchiha extends Ninja {
 
     public void SharinganAtivado(){
-        System.out.println("Meu nome é " + nome + ". Sharingan ATIVADO! Eu sou do clã NivelIntermediario.MetodosParametros.NivelIntermediario.Herança.Uchiha");
+        System.out.println("Meu nome é " + nome + ". Sharingan ATIVADO! Eu sou do clã Uchiha");
     }
 }

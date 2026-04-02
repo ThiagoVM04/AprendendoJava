@@ -13,7 +13,7 @@ public class ScannersDoUsuario {
 
 
         // Receber o nome do ninja
-        System.out.println("Escreva aqui o nome do NivelIntermediario.MetodosParametros.NivelIntermediario.Herança.Ninja: ");
+        System.out.println("Escreva aqui o nome do Ninja: ");
         String nome = caixaDeTexto.nextLine();
         System.out.println("O nome do ninja é: " + nome);
 
@@ -23,9 +23,9 @@ public class ScannersDoUsuario {
         System.out.println("A idade dp ninja é: " + idade + " anos");
 
         if ( idade >= 18 ){
-            System.out.println("NivelIntermediario.MetodosParametros.NivelIntermediario.Herança.Ninja maior de idade e ja pode ir para missoes para fora da aldeira!");
+            System.out.println("Ninja maior de idade e ja pode ir para missoes para fora da aldeira!");
         } else {
-            System.out.println("NivelIntermediario.MetodosParametros.NivelIntermediario.Herança.Ninja menor de idade! PROIBIDO missoes fora da aldeia!T");
+            System.out.println("Ninja menor de idade! PROIBIDO missoes fora da aldeia!T");
         }
         // Fechar sempre o Scanner
         caixaDeTexto.close();

@@ -8,7 +8,7 @@ public class IfEElse {
         * Objetivo: Passar o ninja de nivel de acordo com de missões
         * */
 
-        String ninja1 = "NivelIntermediario.MetodosParametros.NivelIntermediario.Herança.Uchiha Itachi";
+        String ninja1 = "Itachi";
         String genetica = "Sharingan";
         boolean kekkeiGenkai = true;
         int idade = 20;
@@ -20,15 +20,15 @@ public class IfEElse {
         System.out.println("Numero de missoes: " + numeroDeMissoes);
 
         if (kekkeiGenkai == true){
-            System.out.println("NivelIntermediario.MetodosParametros.NivelIntermediario.Herança.Ninja possui habilidades de: " + genetica);
+            System.out.println("Ninja possui habilidades de: " + genetica);
         }
 
         if (numeroDeMissoes > 50 && idade > 18){
-            System.out.println("NivelIntermediario.MetodosParametros.NivelIntermediario.Herança.Ninja de nível: AMBU");
+            System.out.println("Ninja de nível: AMBU");
         } else if (numeroDeMissoes < 50 && idade > 16){
-            System.out.println("NivelIntermediario.MetodosParametros.NivelIntermediario.Herança.Ninja de nível: Jounin");
+            System.out.println("Ninja de nível: Jounin");
         } else {
-            System.out.println("NivelIntermediario.MetodosParametros.NivelIntermediario.Herança.Ninja de nível: Chunin");
+            System.out.println("Ninja de nível: Chunin");
         }
     }
 }

@@ -6,7 +6,7 @@ public class Main {
 
         //Obj NivelIntermediario.MetodosParametros.NivelIntermediario.Herança.Uzumaki
         System.out.println("===============================================");
-        Uzumaki naruto = new Uzumaki("Naruto NivelIntermediario.MetodosParametros.NivelIntermediario.Herança.Uzumaki", "Aldeia da Folha", 17, 59, NivelNinja.GENIN);
+        Uzumaki naruto = new Uzumaki("Naruto Uzumaki", "Aldeia da Folha", 17, 59, NivelNinja.GENIN);
         naruto.nomeDoNinja();
         naruto.estrategiaDeBatalha();
         naruto.tacarKunai();
@@ -15,13 +15,13 @@ public class Main {
         //Obj Ambu
         System.out.println("===============================================");
         Ambu ninjaAmbu = new Ambu();
-        ninjaAmbu.nome = "NivelIntermediario.MetodosParametros.NivelIntermediario.Herança.Ninja Aleatório";
+        ninjaAmbu.nome = "Ninja Aleatório";
         System.out.println("===============================================");
 
 
         //Obj NivelIntermediario.MetodosParametros.NivelIntermediario.Herança.Uchiha
         System.out.println("===============================================");
-        Uchiha sasuke = new Uchiha("Sasuke NivelIntermediario.MetodosParametros.NivelIntermediario.Herança.Uchiha", "Aldeia da Folha", 18, 60, NivelNinja.GENIN);
+        Uchiha sasuke = new Uchiha("Sasuke Uchiha", "Aldeia da Folha", 18, 60, NivelNinja.GENIN);
         sasuke.nomeDoNinja();
         sasuke.estrategiaDeCombate();
         sasuke.inteligenciaDeCombate(145);
@@ -35,7 +35,7 @@ public class Main {
 
         //Obj NivelIntermediario.MetodosParametros.NivelIntermediario.Herança.Uchiha 3
         System.out.println("===============================================");
-        Uchiha madara = new Uchiha("Madara NivelIntermediario.MetodosParametros.NivelIntermediario.Herança.Uchiha", "Aldeia da Folha", 45, 900, NivelNinja.KAGE);
+        Uchiha madara = new Uchiha("Madara Uchiha", "Aldeia da Folha", 45, 900, NivelNinja.KAGE);
         madara.nomeDoNinja();
         madara.estrategiaDeBatalha();
         madara.estrategiaDeCombate();
