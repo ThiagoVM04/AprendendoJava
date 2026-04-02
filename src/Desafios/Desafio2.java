@@ -14,8 +14,8 @@ public class Desafio2 {
         int opcao = 0;
 
         while ( opcao != 3 ){
-            System.out.println("\n===== Menu Ninja =====");
-            System.out.println("1. Cadastrar Ninja");
+            System.out.println("\n===== Menu NivelIntermediario.MetodosParametros.NivelIntermediario.Herança.Ninja =====");
+            System.out.println("1. Cadastrar NivelIntermediario.MetodosParametros.NivelIntermediario.Herança.Ninja");
             System.out.println("2. Listar Ninjas");
             System.out.println("3. Sair");
             System.out.println("Escolha uma opção: ");
@@ -29,7 +29,7 @@ public class Desafio2 {
                     String nomeNinja = scanner.nextLine();
                     ninjas[ninjasCadastrados] = nomeNinja;
                     ninjasCadastrados++;
-                        System.out.println("Ninja cadastrado com sucesso!");
+                        System.out.println("NivelIntermediario.MetodosParametros.NivelIntermediario.Herança.Ninja cadastrado com sucesso!");
                 } else {
                     System.out.println("A lista esta cheia!");
                 }

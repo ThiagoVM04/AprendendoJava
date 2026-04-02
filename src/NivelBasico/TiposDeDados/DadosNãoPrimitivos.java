@@ -17,7 +17,7 @@ public class DadosNãoPrimitivos {
         * Objetivo: Criar um ninja e atribuir metodos a ele.
         * */
 
-        String nome = "Uzumaki Naruto";
+        String nome = "NivelIntermediario.MetodosParametros.NivelIntermediario.Herança.Uzumaki Naruto";
         String nomeUpperCase = nome.toUpperCase(); // toUpperCase vai colocar tudo em CAPSLOCK
         System.out.println("Esse texto esta em CAPSLOCK: " + nomeUpperCase);
         System.out.println("Esse texto esta em NORMAL: " + nome);

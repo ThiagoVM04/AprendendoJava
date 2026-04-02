@@ -7,8 +7,8 @@ public class Array {
         // Arrays são tipos referencia!
         // String inicializa como null
         String[] ninja = new String[3];
-        ninja[0] = "Naruto Uzumaki";
-        ninja[1] = "Itachi Uchiha";
+        ninja[0] = "Naruto NivelIntermediario.MetodosParametros.NivelIntermediario.Herança.Uzumaki";
+        ninja[1] = "Itachi NivelIntermediario.MetodosParametros.NivelIntermediario.Herança.Uchiha";
         ninja[2] = "Minato Namikaze";
 
         // Redeclarar Array

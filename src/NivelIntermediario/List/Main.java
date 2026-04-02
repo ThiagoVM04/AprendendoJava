@@ -17,9 +17,9 @@ public class Main {
         // Não sao estaticas, elas podem aumentar
 
         List <String> ninjasList = new ArrayList<>();
-        ninjasList.add("Naruto Uzumaki");
-        ninjasList.add("Sasuke Uchiha");
-        ninjasList.add("Sakura Haruno");
+        ninjasList.add("Naruto");
+        ninjasList.add("Sasuke");
+        ninjasList.add("Sakura");
         ninjasList.add("Minato Namikaze");
         //Adicioanr na list
         ninjasList.add("Kakashi Hatake");

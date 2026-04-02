@@ -3,7 +3,7 @@ package Desafios;
 public class Desafio1 {
     static void main(String[] args) {
 
-        String nomeNinja1 = "Naruto Uzumaki";
+        String nomeNinja1 = "Naruto NivelIntermediario.MetodosParametros.NivelIntermediario.Herança.Uzumaki";
         int idade = 27;
         String missao = "Salvar Konoha";
         String status = "Em andamento";
@@ -28,7 +28,7 @@ public class Desafio1 {
         System.out.println("==============================");
 
 
-        String nomeNinja2 = "Boruto Uzumaki";
+        String nomeNinja2 = "NivelIntermediario.MetodosParametros.Boruto NivelIntermediario.MetodosParametros.NivelIntermediario.Herança.Uzumaki";
         int idade2 = 14;
         String missao2 = "Salvar o gato na arvore";
         String status2 = "Em andamento";

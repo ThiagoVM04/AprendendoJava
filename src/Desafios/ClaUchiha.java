@@ -14,6 +14,6 @@ public class ClaUchiha extends Ninjas {
         System.out.println("Missao: " + missao);
         System.out.println("Nivel de Dificuldade: " + nivelDificuldade);
         System.out.println("Status: " + statusMissao);
-        System.out.println("Habilidade Especial Uchiha: " + habilidadeEspecial);
+        System.out.println("Habilidade Especial NivelIntermediario.MetodosParametros.NivelIntermediario.Herança.Uchiha: " + habilidadeEspecial);
     }
 }
