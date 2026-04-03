@@ -1,18 +1,50 @@
 package Desafios;
 
+import java.util.LinkedList;
+
 public class Ninjas {
 
-    String nome;
-    int idade;
-    String missao;
-    String nivelDificuldade;
-    String statusMissao;
+    private String nome;
+    private int idade;
+    private String vila;
 
-    public void mostrarInformacoes(){
-        System.out.println("Nome: " + nome);
-        System.out.println("Idade: " + idade);
-        System.out.println("Missao: " + missao);
-        System.out.println("Nivel de Dificuldade: " + nivelDificuldade);
-        System.out.println("Status: " + statusMissao);
+
+    public Ninjas(String nome, int idade, String vila) {
+        this.nome = nome;
+        this.idade = idade;
+        this.vila = vila;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public int getIdade() {
+        return idade;
+    }
+
+    public void setIdade(int idade) {
+        this.idade = idade;
+    }
+
+    public String getVila() {
+        return vila;
+    }
+
+    public void setVila(String vila) {
+        this.vila = vila;
+    }
+
+    @Override
+    public String toString() {
+        return "Ninjas{" +
+                "nome='" + nome + '\'' +
+                ", idade=" + idade +
+                ", vila='" + vila + '\'' +
+                '}';
     }
 }
